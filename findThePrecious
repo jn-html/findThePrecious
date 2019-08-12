@@ -1,8 +1,157 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>findThePrecious.com</title>
-</head>
+<!-- Bien faire vérifier par W3C https://validator.w3.org/#validate_by_input -->
 
-<body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>FindThePrecious.com</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>FindThePrecious.com</h1>
+			<nav>
+				<ul>
+					<li><a href="#Fellows">Fellows</a></li>
+					<li><a href="#The_Ring">The Ring</a></li>
+					<li><a href="Get_my_reward">Get my reward</a></li>
+					<li><a href="Best_hunters">Best hunters</a></li>
+					<li><a href="Join_the_army">Join the army</a></li>
+					<li><a href="Contact_us">Contact us</a></li>
+				</ul>
+			</nav>
+		</header>
+    
+    <div id="banniere_description">
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/600x300/D6D6D9/757575?text=Dangerous+fellowship+try+to+destroy+the+ring+!++Orcs,+Goblins,+Balrogs,+protect+your+master+Sauron!" alt="Dangerous fellowship try to destroy the ring"></a>
+      <p>Dangerous fellowship try to destroy the ring !</p>
+      <p>Orcs, Goblins, Balrogs, protect your master Sauron !</p>
+      </div>
+		
+		<section>
+      <h2 id="Fellows">Fellows wanted dead</h2>
+      <p>(or alive if you want to eat them later)</p>
+      <nav>
+        <ul>
+          <li><a href="Most_wanted">Most wanted</a></li>
+          <li><a href="Most_dangerous">Most dangerous</a></li>
+          <li><a href="Already_captured">Already captured</a></li>
+        </ul>
+      </nav>
+      
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/215x205/D6D6D9/757575.png" alt="The Wizard"></a>
+      <h5>The Wizard</h5>
+      <P>Tall with grey clothes and beard</p>
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/215x205/B5B5B7/757575.png" alt="Hobbit #3"></a>
+      <h5>Hobbit #3</h5>
+      <p>Small with big hairy feet</p>
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/215X205/D6D6D9/757575.png" alt="Yummy Dwarf"></a>
+      <h5>Yummy Dwarf</h5>
+      <p>Small soldier, long ginger hair and beard</p>
+    </section>
+    <hr/>
+
+		<section>
+			<h2 id="Get_my_reward">I have captured one of them, how to get my reward ?</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat. Aliquam egestas, velit at condimentum placerat, sem sapien laoreet mauris, dictum porttitor lacus est nec enim. Vivamus feugiat elit lorem, eu porttitor ante ultrices id. Phasellus suscipit tellus ante, nec dignissim elit imperdiet nec. Nullam fringilla feugiat nisl. Ut pretium, metus venenatis dictum viverra, dui metus finibus enim, ac rhoncus sem lorem vitae mauris. Suspendisse ut venenatis libero. Suspendisse lorem felis, pretium in maximus id, tempor non ipsum</p>
+      <a href="#Contact_us"><img src="https://via.placeholder.com/150x50/D6D6D9/757575?text=Contact+us" alt="contact us"></a>
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/140x140/D6D6D9/757575.png" alt="reward"></a>
+      
+		</section>
+    <hr/>
+		<section>
+			<h2 id="Best_hunters">Best hunters</h2>
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/70x70/D6D6D9/757575.png" alt="Elveskiller22">ElvesKiller22 2 captures - </a><a href="profil">profile</a><a><img src="//media2.picsearch.com/is?s4JijhJIQLbAgPFfnadZPm1NieBLpZtzc7QZdCX_L_A&amp;height=30" alt="like"></a>
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/70x70/D6D6D9/757575.png" alt="Goblin45">Goblin45 1 capture - </a><a href="profil">profile</a><a><img src="//media2.picsearch.com/is?s4JijhJIQLbAgPFfnadZPm1NieBLpZtzc7QZdCX_L_A&amp;height=30" alt="like"></a>
+		</section>
+    <hr/>
+
+		<section>
+			<h2 id="The_Ring">About the ring</h2>
+      <aside>
+      <h3>Ring Capabilities</h3>
+        <p>What can our master Sauron do with the ring?</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>Feature</td>
+              <td>Description</td>
+            </tr>
+            <tr>
+              <td>Main</td>
+              <td>One ring to rules them all</td>
+            </tr>
+            <tr>
+              <td>Invisibility</td>
+              <td>You can't see me</td>
+            </tr>
+            <tr>
+              <td>Power</td>
+              <td>Destroy the world</td>
+            </tr>
+          </tbody>
+        </table>
+      </aside>
+      <aside>
+        <h3>Why the ring is awesome ?</h3>
+        <p>My preciooooooooussssss! Hrk Hrk, we want our preeciooooooooouuusssss!!</p>
+        <p class="signature">Gollum</p>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/110x110/D6D6D9/757575.png" alt="Gollum"></a>
+      </aside>
+		</section>
+    <hr/>
+
+		<section>
+			<h2 id="Join_the_army">Join Mordor Army, we need you !</h2>
+      <a href="https://placeholder.com"><img src="https://via.placeholder.com/140x140/D6D6D9/757575.png" alt="Sauron"></a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis erat. Aliquam egestas, velit at condimentum placerat, sem sapien laoreet mauris, dictum porttitor lacus est nec enim. Vivamus feugiat elit lorem, eu porttitor ante ultrices id. Phasellus suscipit tellus ante, nec dignissim elit imperdiet nec. Nullam fringilla feugiat nisl. Ut pretium, metus venenatis dictum viverra, dui metus finibus enim, ac rhoncus sem lorem vitae mauris. Suspendisse ut venenatis libero. Suspendisse lorem felis, pretium in maximus id, tempor non ipsum</p>
+      <a href="https://SauronRulesThemAll.com"><img src="https://via.placeholder.com/333x100/D6D6D9/757575?text=More+info+on+SuronRulesThemAll.com" alt="info_on_Sauron"></a>
+		</section>
+    <hr/>
+
+		<section>
+			<h2 id="Contact_us">Contact us</h2>
+			<form method="post" action="traitement.php">
+				<fieldset>
+					<legend>Your Info</legend>
+          <label for="email">Email:</label>
+       <input type="email" name="Email" id="email" /><br/>
+					Adress: <input type="text" name="Adress"><br/>
+          <label for="status">Select:</label><br/>
+            <select name="status" id="status">
+              <option value="seen">I have seen one of them</option>
+              <option value="captured">I have captured one of them</option>
+              <option value="join">I want to join your army</option>
+            </select><br/>
+          <label for="message">Your message:</label><br/>
+            <textarea name="message" id="message"></textarea>
+            <br/>
+                     
+            <input type="submit" value="send" />
+          
+				</fieldset>
+			</form>
+		</section>
+
+		<footer>
+			<ul>
+				<li>About us</li>
+				<li>Fellows</li>
+				<li>Join the army</li>
+			</ul>
+
+			<ul>
+				<li>FAQ</li>
+				<li>Reward conditions</li>
+				<li>Legal mentions</li>
+			</ul>
+
+			<ul>
+				<li>Sauron4Ever.com</li>
+				<li>Follow him also on twitter</li>
+			</ul>
+		</footer>
+
+
+	</body>
+</html>
